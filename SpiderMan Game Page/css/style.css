@@ -1,0 +1,1548 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    border: none;
+    outline: none;
+}
+
+body {
+    width: 1280px;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer {
+    width: 1280px;
+    height: 598px;
+    background: #5E5E5D;
+    position: relative;
+    bottom: 3145px;
+}
+
+/*-----------------------------------------------------------------------------------------INICIO DEL HEADER--------------------------------------------------------------------------------------------*/
+.header-bg {
+    background-color: #5499F8;
+    width: 1280px;
+    height: 227px;
+}
+
+.div-header {
+    position: fixed;
+    width: 1280px;
+    height: 145px;
+    background: linear-gradient(0deg, rgba(84, 153, 248, 0.00) 0%, #5499F8 12.09%, #5499F8 100%);
+    z-index: 999;
+    transition: 0.4s ease-out;
+}
+
+.div-header.abajo {
+    background: #5499F8;
+    height: 83px;
+}
+
+.menu-hamburguesa {
+    width: 34px;
+    height: 26px;
+    filter: drop-shadow(4px 5px 0px #02187E);
+    position: relative;
+    bottom: -20px;
+    left: 100px;
+}
+
+.linea {
+    width: 34px;
+    height: 4px;
+    border-radius: 111px;
+    border: 4px solid #2981FF;
+    background: #FFE901;
+}
+
+.btn-comprar {
+    position: absolute;
+    right: 100px;
+    top: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 111px;
+    border: 8px solid var(--2982-ff, #2982FF);
+    background: #FFE901;
+    box-shadow: 4px 5px 0px 0px #02187E;
+    color: #02187E;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 18.9px;
+    /* 18.9px */
+    letter-spacing: 2.2px;
+    -webkit-text-stroke: 2px;
+}
+
+.btn-comprar:hover,
+.btn-comprar-ahora:hover {
+    transition: 0.50s ease;
+    background-color: #e41820;
+    cursor: pointer;
+}
+
+.btn-comprar::after {
+    transition: width 0.25s ease;
+}
+
+/*-----------------------------------------------------------------------------------------FIN DEL HEADER-----------------------------------------------------------------------------------------------*/
+/**/
+/**/
+/**/
+/*-----------------------------------------------------------------------------------------INICIO DIV1--------------------------------------------------------------------------------------------------*/
+
+.div1 {
+    width: 1280px;
+    height: 720px;
+    position: relative;
+    bottom: 50px;
+}
+
+@keyframes logo {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+.div1 .layer-8 {
+    width: 590px;
+    height: 301px;
+    background-image: url("../images/image-5-1.png");
+    position: relative;
+    left: 330px;
+    bottom: 3857px;
+    z-index: 1;
+    animation-name: logo;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+.div1.abajo .layer-8 {
+    width: 133px;
+    height: 68px;
+    background-size: cover;
+    position: fixed;
+    top: 10px;
+    left: 575px;
+    z-index: 999;
+    transition: 0.5s;
+}
+
+.parche {
+    width: 400px;
+    height: 100px;
+    background-color: #8F6AA6;
+    position: absolute;
+    z-index: -99999;
+    top: 850px;
+}
+
+/*Fondo nubes*/
+.layer-1 {
+    width: 1280px;
+    height: 720px;
+    background-image: url("../images/untitled-1-1.png");
+    position: relative;
+    bottom: 47px;
+}
+
+@keyframes deslizarEdificios {
+    from {
+        transform: translateY(100%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+/*Fondo edificios*/
+.layer-2 {
+    width: 1280px;
+    height: 720px;
+    background-image: url("../images/Edificios-difuminados.png");
+    position: relative;
+    bottom: 760px;
+    animation-name: deslizarEdificios;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+@keyframes deslizarPeter {
+    from {
+        transform: translateY(-300%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes deslizarGwen {
+    from {
+        transform: translateX(-150%) translateY(-50%);
+    }
+
+    to {
+        transform: translateX(0) translateY(0);
+
+    }
+}
+
+@keyframes deslizarMiles {
+    from {
+        transform: translateX(150%) translateY(-50%);
+    }
+
+    to {
+        transform: translateX(0) translateY(0);
+
+    }
+}
+
+
+/*GWEN STACY*/
+.layer-3 {
+
+    width: 360px;
+    height: 444px;
+    background-image: url("../images/image-3.png");
+    position: relative;
+    left: 97px;
+    bottom: 1212px;
+    animation-name: deslizarGwen;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+/*PETER PARKER*/
+.layer-4 {
+    width: 465px;
+    height: 465px;
+    background-image: url("../images/image-2.png");
+    position: relative;
+    left: 400px;
+    bottom: 1622px;
+    z-index: 5;
+    animation-name: deslizarPeter;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+/*MILES MORALES*/
+.layer-5 {
+    z-index: 2;
+    width: 393px;
+    height: 393px;
+    background-image: url("../images/image-1.png");
+    position: relative;
+    left: 695px;
+    bottom: 2177px;
+    animation-name: deslizarMiles;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+/*TELARAÑA DE PETER PARKER*/
+.layer-6 {
+    z-index: 5;
+    width: 575px;
+    height: 671px;
+    background-image: url("../images/untitled-5-1.png");
+    background-size: cover;
+    position: relative;
+    right: 0px;
+    bottom: 2511px;
+    animation-name: deslizarPeter;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+/*TELARAÑA DE MILES MORALES*/
+.layer-7 {
+    z-index: 1;
+    width: 301.659px;
+    height: 372.442px;
+    background-image: url("../images/untitled-5-3.png");
+    position: relative;
+    left: 981px;
+    bottom: 3187px;
+    animation-name: deslizarMiles;
+    animation-duration: 4s;
+    animation-delay: 4s;
+}
+
+/*----------------------------------------------------------------------------------------------FIN DIV1--------------------------------------------------------------------------------------------------*/
+/**/
+/**/
+/**/
+.rectangulo-8 {
+    width: 1280px;
+    height: 844.5px;
+    background-image: url("../images/rectangle-8.png");
+    background-size: contain;
+    z-index: -4;
+}
+
+.div-duende-verde {
+    width: 1280px;
+    height: 700px;
+    position: relative;
+    bottom: 154px;
+
+}
+
+.titulo-h2 {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 94.5%;
+    /* 56.7px */
+}
+
+.titulo1 {
+    position: relative;
+    bottom: 606px;
+    left: 95px;
+    width: 646px;
+}
+
+.titulo2 {
+    width: 667px;
+    position: relative;
+    left: 104px;
+    top: 500px;
+}
+
+.texto {
+    position: relative;
+    bottom: 582px;
+    left: 95px;
+    width: 586px;
+    height: auto;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.duende-verde {
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 712px;
+    width: 553px;
+    height: 921px;
+    background-image: url("../images/untitled-3-1.png");
+    background-size: cover;
+}
+
+
+.tarjeta-duende-verde {
+    z-index: 0;
+    width: 779.649px;
+    height: 455.131px;
+    position: relative;
+    left: 90.28px;
+    bottom: 585px;
+    background-image: url("../images/image-16.png");
+    background-size: cover;
+}
+
+.imagen-y-descripcion-hombres-araña {
+    background-image: url("../images/Rectangle-7.png");
+    width: 1280px;
+    height: 1085px;
+    position: relative;
+    bottom: 138px;
+    z-index: -1;
+    padding-top: 150px;
+}
+
+.descripcion-hombres-araña {
+    display: flex;
+    position: relative;
+    top: 228px;
+    left: 100px;
+    width: 1280px;
+    height: 1085px;
+}
+
+.textos-hombres-arañas {
+    display: flex;
+    position: relative;
+    left: 100px;
+    bottom: 536px;
+}
+
+.peter-parker-descripcion {
+    width: 332.96px;
+    height: 302.691px;
+    background-image: url("../images/image-13.png");
+    background-size: cover;
+    position: relative;
+    margin-right: 40.56px;
+}
+
+.texto-peter-parker {
+    margin-right: 40.56px;
+}
+
+.miles-morales-descripcion {
+    width: 332.96px;
+    height: 302.691px;
+    background-image: url("../images/image-8.png");
+    background-size: cover;
+    margin-right: 40.56px;
+}
+
+.texto-miles-morales {
+    margin-right: 40.56px;
+}
+
+.gwen-stacy-descripcion {
+    width: 332.96px;
+    height: 302.691px;
+    background-image: url("../images/image-24.png");
+    background-size: cover;
+}
+
+.texto-descriptivo {
+    width: 333px;
+    height: 218px;
+
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.ghost-spider {
+    height: 566px;
+    background-image: url("../images/image-223.png");
+    position: relative;
+    bottom: 350px;
+    z-index: 100;
+    overflow-x: visible;
+
+}
+
+.test1 {
+    background-image: url("../images/test-HvS.png");
+    background-size: cover;
+    width: 546.108px;
+    height: 326.509px;
+    transform: rotate(-13.078deg);
+    position: relative;
+    left: 80px;
+    bottom: 100px;
+    transition: transform 2s;
+    z-index: 1;
+}
+
+.test2 {
+    background-image: url("../images/test.png");
+    background-size: cover;
+    width: 543.218px;
+    height: 325.787px;
+    transform: rotate(-26.474deg);
+    position: relative;
+    left: 75px;
+    bottom: 240px;
+    transition: transform 2s;
+    z-index: 1;
+}
+
+.test3 {
+    background-image: url("../images/test-xGr.png");
+    background-size: cover;
+    width: 546.108px;
+    height: 326.509px;
+    transform: rotate(-36.016deg);
+    position: relative;
+    left: 105px;
+    bottom: 351px;
+    transition: transform 2s;
+    z-index: 1;
+}
+
+.test1:hover,
+.test2:hover,
+.test3:hover {
+    transform: perspective(5px);
+}
+
+.div-negro1 {
+    width: 1280px;
+    height: 1318px;
+    position: relative;
+    bottom: 682px;
+}
+
+.parallex2-1 {
+    width: 1076.4px;
+    height: 527.626px;
+    background-image: url("../images/image-222-2.png");
+    background-size: cover;
+    position: relative;
+    top: 555px;
+    left: 101.76px;
+
+}
+
+.parallex2-2 {
+    width: 1077.059px;
+    height: 527.626px;
+    background-image: url("../images/image-22-7.png");
+    background-size: cover;
+    position: relative;
+    top: 28px;
+    left: 101.76px;
+
+}
+
+.parallex2-3 {
+    background-image: url("../images/image-22-1.png");
+    background-size: cover;
+    width: 451.258px;
+    height: 591.442px;
+    position: relative;
+    bottom: 556px;
+    left: 185px;
+    transform: rotate(-12.483deg);
+
+}
+
+.parallex2-4 {
+    background-image: url("../images/untitled-4-2.png");
+    background-size: cover;
+    width: 451.258px;
+    height: 591.442px;
+    position: relative;
+    bottom: 1335px;
+    left: 560px;
+
+}
+
+.parallex2-5 {
+    background-image: url("../images/untitled-2-1.png");
+    transform: rotate(7.515deg);
+    background-size: cover;
+    width: 410.106px;
+    height: 437.972px;
+    position: relative;
+    bottom: 1547px;
+    left: 800px;
+
+}
+
+.parallex2-6 {
+    width: 1077.059px;
+    height: 527.626px;
+    background-image: url("../images/image-22-9.png");
+    position: relative;
+    bottom: 2120px;
+    left: 101.76px;
+}
+
+/*Amigos*/
+
+.fondo-amigos {
+    z-index: -1;
+    width: 1280px;
+    height: 2194.5px;
+    background-image: url("../images/rectangle-9.png");
+    /*position: relative;
+    bottom: 1000px;*/
+
+}
+
+.tituloNegroAmigos {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 94.5%;
+    /* 56.7px */
+    /*position: relative;
+    bottom: 700px;
+    right: -96px;*/
+    position: relative;
+    top: 300px;
+    margin-left: 104px;
+}
+
+
+.active {
+    display: block;
+    opacity: 1 !important;
+    /* Esto hará que la imagen sea visible */
+}
+
+.img-juego-1,
+.img-juego-2,
+.img-juego-3,
+.img-juego-4 {
+    transition: 0.5s;
+    transform: translateY(20px);
+
+    top: 0;
+    /* Esto hará que la imagen se mantenga en la parte superior del div al desplazarse */
+    opacity: 0;
+    /* Las imágenes serán transparentes por defecto */
+}
+
+.img-juego-1 {
+
+    position: sticky;
+    top: 0;
+    /* Esto hará que la imagen se mantenga en la parte superior del div al desplazarse */
+    width: 552px;
+    height: 302.762px;
+    background-image: url("../images/image-21.png");
+
+
+}
+
+.img-juego-2 {
+    position: sticky;
+    width: 548px;
+    height: 305px;
+    background-image: url("../images/image-9.png");
+    margin-top: 100px;
+    opacity: 0;
+}
+
+.img-juego-3 {
+    position: sticky;
+    width: 556px;
+    height: 301.507px;
+    background-image: url("../images/image-10.png");
+    margin-top: 121px;
+    opacity: 0;
+
+}
+
+.img-juego-4 {
+
+    width: 552px;
+    height: 308.253px;
+    background-image: url("../images/image-6.png");
+    margin-top: 211px;
+    opacity: 0;
+
+}
+
+.info-img-1,
+.info-img-2,
+.info-img-3,
+.info-img-4 {
+    /* Duración de la transición */
+    transition: 0.5s;
+    /* Estado inicial */
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.info-img-1.active,
+.info-img-2.active,
+.info-img-3.active,
+.info-img-4.active {
+    /* Estado final */
+
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.info-juego {
+    width: 467px;
+    padding-left: 57px;
+    padding-top: 18px;
+}
+
+.titulo-info {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.5%;
+    /* 37.8px */
+}
+
+.texto-info {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.5%;
+    padding-top: 25px;
+    /* 18.9px */
+}
+
+.row-images {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    bottom: 1850px;
+    right: -104px;
+    animation: scrollImages linear infinite;
+
+    /* Esto permite el desplazamiento dentro del div */
+    height: 2194.5px;
+}
+
+.info-img {
+    margin-top: 150px;
+}
+
+
+/*fin amigos*/
+.rectangle-10 {
+    width: 1280px;
+    height: 719.86px;
+    background-image: url("../images/rectangle-10.png");
+    background-size: cover;
+    position: relative;
+
+    bottom: 3145px;
+}
+
+.oculto {
+    display: none;
+}
+
+
+
+
+
+.fondoGwen {
+    display: block !important;
+    width: 841.639px;
+    height: 1280px;
+    background: #f6e2ef;
+    background-size: cover;
+    clip-path: polygon(0% 100%, 15.5% 0%, 84.5% 0%, 100% 100%);
+    transform: rotate(270deg);
+    position: absolute;
+    top: -215px;
+    left: 219px;
+    z-index: 3;
+}
+
+/*Gwen*/
+.rectangleGwen {
+    transition: .5s ease;
+    background-image: url("../images/RectangleGwen.png");
+    background-size: cover;
+    position: relative;
+    bottom: 3145px;
+    z-index: 9;
+    /* background: linear-gradient(0deg, rgba(143, 190, 252, 1), white, rgba(0, 0, 0, 0) 86%) no-repeat; */
+    /* background: linear-gradient(0deg, rgba(143, 190, 252, 1), rgba(0, 0, 0, 0) 80%) no-repeat; */
+    /*121,779px*/
+}
+
+.lineTopGwen {
+    transition: .5s ease;
+    width: 1280px;
+    height: 161px;
+    background-image: url("../images/RectangleTopGwen.png");
+    position: relative;
+    top: 0px;
+    z-index: 5;
+}
+
+.lineBottomGwen {
+    transition: .5s ease;
+    width: 1280px;
+    height: 147.139px;
+    background-image: url("../images/RectangleBottomGwen.png");
+    z-index: 2;
+    position: relative;
+    top: -790px;
+    z-index: 4;
+
+}
+
+.spider-gwen-stacy {
+    transition: .5s ease;
+    background-image: url("../images/image-229.png");
+    background-size: cover;
+    width: 268px;
+    height: 416.5px;
+    position: relative;
+    left: 190px;
+    top: 160px;
+    z-index: 6;
+}
+
+.spider-gwen-stacy-giant {
+    transition: .5s ease;
+    width: 395px;
+    height: 613.871px;
+    position: relative;
+    left: 180px;
+    top: -40px;
+    background-image: url("../images/GwenGiant.png");
+    background-size: cover;
+    z-index: 6;
+}
+
+.spider-gwen-stacy-blur {
+    transition: .5s ease;
+    width: 219.787px;
+    height: 341.572px;
+    background-image: url("../images/GwenBlurred.png");
+    background-size: cover;
+    position: relative;
+    left: 174px;
+    top: 140px;
+    z-index: 6;
+}
+
+.spider-gwen-stacy-blur-2 {
+    transition: .5s ease;
+    width: 226.537px;
+    height: 352.062px;
+    background-image: url("../images/GwenBlurred.png");
+    background-size: cover;
+    position: relative;
+    left: 252px;
+    top: 120px;
+    z-index: 6;
+}
+
+.fondoPeter {
+    display: block !important;
+    width: 841.639px;
+    height: 1280px;
+    background: #d1d8ed;
+    background-size: cover;
+    clip-path: polygon(0% 100%, 14.5% 0%, 84.3% 0%, 100% 100%);
+    transform: rotate(270deg);
+    position: absolute;
+    top: -215px;
+    left: 219px;
+    z-index: 3;
+}
+
+
+.rectanglePeter {
+    display: block !important;
+    transition: .5s ease;
+    background-image: url("../images/RectanglePeter.png") !important;
+    background-size: cover;
+    position: relative;
+    bottom: 3145px;
+}
+
+.lineTopPeter {
+    transition: .5s ease;
+    width: 1280px;
+    height: 153.5px;
+    background-image: url("../images/RectangleTopPeter.png");
+    position: relative;
+    top: 3px;
+    z-index: 5;
+}
+
+.lineBottomPeter {
+    transition: .5s ease;
+    width: 1280px;
+    height: 157.639px;
+    background-image: url("../images/RectangleBottomPeter.png");
+    position: relative;
+    top: -810px;
+    z-index: 3;
+}
+
+.spider-peter-parker {
+    transition: .5s ease;
+    background-image: url("../images/image-234.png");
+    background-size: cover;
+    width: 416.5px;
+    height: 457.5px;
+    position: relative;
+    left: 390px;
+    bottom: 245px;
+    z-index: 6;
+}
+
+.spider-peter-parker-giant {
+
+    transition: .5s ease;
+    width: 616px;
+    height: 676.639px;
+    position: relative;
+    left: 284px;
+    bottom: 374px;
+    background-image: url("../images/PeterGiant.png");
+    background-size: cover;
+    z-index: 6;
+}
+
+.spider-peter-parker-blur {
+    transition: .5s ease;
+    width: 352.062px;
+    height: 386.718px;
+    position: relative;
+    left: 572px;
+    bottom: 550px;
+    background-image: url("../images/PeterBlurred.png");
+    background-size: cover;
+    z-index: 6;
+}
+
+.spider-peter-parker-blur-2 {
+    transition: .5s ease;
+    width: 352.062px;
+    height: 386.718px;
+    position: relative;
+    left: 424.44px;
+    bottom: 230px;
+    background-image: url("../images/PeterBlurred.png");
+    background-size: cover;
+    z-index: 6;
+}
+
+.fondoMiles {
+    display: block !important;
+    width: 841.639px;
+    height: 1280px;
+    background: #c7c7c7;
+    background-size: cover;
+    clip-path: polygon(0% 100%, 14.9% 0%, 84.5% 0%, 100% 100%);
+    transform: rotate(270deg);
+    position: absolute;
+    top: -215px;
+    left: 219px;
+    z-index: 3;
+}
+
+.rectangleMiles {
+    transition: .5s ease;
+    background-image: url("../images/RectangleMIles.png");
+    background-size: cover;
+    position: relative;
+    bottom: 3145px;
+    z-index: 6;
+}
+
+.lineTopMiles {
+    transition: .5s ease;
+    width: 1280px;
+    height: 159.5px;
+    background-image: url("../images/RectangleTopMiles.png");
+    position: relative;
+    top: 0px;
+    z-index: 6;
+}
+
+.lineBottomMiles {
+    transition: .5s ease;
+    width: 1280px;
+    height: 143.139px;
+    background-image: url("../images/RectangleBottomMiles.png");
+    position: relative;
+    top: -820px;
+    z-index: 3;
+}
+
+.spider-miles-morales {
+    transition: .5s ease;
+    background-image: url("../images/image-236.png");
+    background-size: cover;
+    width: 313.5px;
+    height: 398.5px;
+    position: relative;
+    left: 770px;
+    bottom: 700px;
+    z-index: 6;
+}
+
+.spider-miles-morales-giant {
+    transition: .5s ease;
+    position: relative;
+    left: 694px;
+    bottom: 820px;
+    width: 497px;
+    height: 631.753px;
+    background-image: url("../images/MilesGiant.png");
+    background-size: cover;
+    z-index: 6;
+
+}
+
+.spider-miles-morales-blur-1 {
+    transition: .5s ease;
+    width: 257.101px;
+    height: 326.81px;
+    position: relative;
+    left: 869px;
+    bottom: 940px;
+    background-image: url("../images/MilesBlurred.png");
+    background-size: cover;
+    z-index: 6;
+}
+
+.spider-miles-morales-blur-2 {
+    transition: .5s ease;
+    width: 257.101px;
+    height: 326.81px;
+    position: relative;
+    left: 861px;
+    bottom: 840px;
+    background-image: url("../images/MilesBlurred.png");
+    background-size: cover;
+    z-index: 6;
+}
+
+.titulo3 {
+    width: 816px;
+    /*position: relative;
+    bottom: 3000px;
+    left: 104px;*/
+    margin-left: 104px;
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.btn-comprar-ahora {
+    /*position: relative;
+    bottom: 2958px;
+    left: 104px;*/
+    margin-top: 42px;
+    margin-left: 104px;
+    width: 292px;
+    height: 70px;
+    border-radius: 111px;
+    border: 8px solid var(--2982-ff, #2982FF);
+    background: #FFE901;
+    /* Drop Shadow */
+    box-shadow: 4px 5px 0px 0px #02187E;
+    color: #02187E;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94.5%;
+    /* 18.9px */
+    letter-spacing: 2.2px;
+    -webkit-text-stroke: 2px;
+}
+
+.prefooter {
+    width: 1280px;
+    height: 1296px;
+    background-image: url("../images/RectangleFooter.png");
+    /*background: linear-gradient(180deg, #8FBEFC 21.2%, #F7E3D8 81.48%);*/
+    position: relative;
+    bottom: 3145px;
+    z-index: 2;
+    /*3226,779px miles*/
+
+}
+
+.seccion1 {
+    width: 1280px;
+    height: 576px;
+}
+
+.seccion2 {
+    width: 1280px;
+    height: 720px;
+    background-image: url("../images/untitled-1-5-ByC.png");
+    background-size: cover;
+
+}
+
+.titulo4 {
+    width: 816px;
+    color: #000;
+    text-align: center;
+    font-family: 'Lato';
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 94.5%;
+    /* 56.7px */
+    position: relative;
+    left: 232px;
+    top: 152px;
+}
+
+.suscribirse {
+    display: flex;
+    position: relative;
+    left: 250px;
+    top: 206px;
+}
+
+.casilla-suscripcion {
+    width: 562px;
+    height: 100px;
+    border-radius: 50px 0px 0px 50px;
+    border-top: 9px solid #2982FF;
+    border-bottom: 9px solid #2982FF;
+    border-left: 9px solid #2982FF;
+    background: #FFF;
+
+    /* Drop Shadow */
+    box-shadow: 4px 5px 0px 0px #02187E;
+}
+
+.btn-suscripcion {
+    -webkit-text-stroke: 2px;
+    width: 218px;
+    height: 118px;
+
+    border-radius: 0 50px 50px 0;
+    border: 9px solid #2982FF;
+    background: #FFE901;
+
+    /* Drop Shadow */
+    box-shadow: 4px 5px 0px 0px #02187E;
+
+    color: #02187E;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 94.5%;
+    /* 18.9px */
+    letter-spacing: 2.2px;
+}
+
+
+
+.politica-y-condiciones {
+    position: relative;
+    left: 302px;
+    top: 250px;
+
+    width: 578px;
+    height: 95px;
+
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.5%;
+}
+
+.subrayado {
+    color: #000;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.5%;
+    text-decoration-line: underline;
+}
+
+.edad-recomendada {
+    width: 231px;
+    height: 145px;
+    background-image: url("../images/image-224.png");
+    background-size: cover;
+    position: relative;
+    left: 302px;
+    top: 260px;
+}
+
+.plataformas {
+    width: 1280px;
+    height: 80px;
+    background: #242424;
+    background-size: cover;
+    position: relative;
+    bottom: 3145px;
+}
+
+.plataformas2 {
+    width: 1080px;
+    height: 75px;
+    background-image: url("../images/image-226.png");
+    background-size: contain;
+    position: relative;
+    left: 100px;
+}
+
+.seccion3 {
+    width: 1280px;
+    height: 248px;
+    position: relative;
+    bottom: 3145px;
+}
+
+
+
+
+
+.derechos-reservados {
+    padding-top: 38px;
+    margin-left: 100px;
+    width: 820px;
+    height: 361px;
+
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.5%;
+    /* 18.9px */
+    letter-spacing: 2.2px;
+}
+
+.cookies-y-privacidad {
+    margin-left: 100px;
+}
+
+.politicas {
+    color: #FFF;
+    font-family: 'Lato';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 94.5%;
+    letter-spacing: 2.2px;
+    text-decoration-line: underline;
+}
+
+#cookie {
+    margin-right: 7px;
+}
+
+.redes-sociales {
+    width: 212px;
+    height: 41px;
+
+    margin-top: 38px;
+    margin-left: 100px;
+
+    background-image: url("../images/image-238.png");
+    background-size: contain;
+}
+
+.sprite-miles {
+    background-image: url("../images/image-228.png");
+    width: 97px;
+    height: 91px;
+    background-size: cover;
+    position: relative;
+    top: 560px;
+    left: 216px;
+}
+
+.sprite-gwen {
+    background-image: url("../images/image-239.png");
+    width: 58px;
+    height: 64px;
+    background-size: cover;
+    position: relative;
+    top: 405px;
+    left: 533px;
+}
+
+.sprite-peter {
+    background-image: url("../images/image-227.png");
+
+    width: 94px;
+    height: 91px;
+    background-size: cover;
+
+    position: relative;
+    left: 1000px;
+    top: 235px;
+
+    mix-blend-mode: darken;
+}
+
+.div-amigos-diversion {
+    position: relative;
+    top: -950px;
+    z-index: -1;
+}
+
+.vacio {
+    height: 100px;
+}
+
+.card,
+.card-text {
+    opacity: 0;
+    transform: translate3d(0, 20px, 0);
+    transition: opacity 2s, transform 2s;
+
+}
+
+
+.card.visible,
+.card-text.visible {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+}
+
+
+@keyframes miguelWall {
+
+    /* Partimos de la primera viñeta del sprite sheet */
+    0% {
+        background-position: 0
+    }
+
+    /* El tamaño total de ancho del sprite. Es negativo para que no "camine" hacia atrás */
+    100% {
+        background-position: -261px
+    }
+}
+
+@keyframes miguelPunch {
+
+    /* Partimos de la primera viñeta del sprite sheet */
+    0% {
+        background-position: 0
+    }
+
+    /* El tamaño total de ancho del sprite. Es negativo para que no "camine" hacia atrás */
+    100% {
+        background-position: -730px
+    }
+
+    /*69px de alto*/
+}
+
+@keyframes miguelWeb {
+
+    /* Partimos de la primera viñeta del sprite sheet */
+    0% {
+        background-position: 0
+    }
+
+    /* El tamaño total de ancho del sprite. Es negativo para que no "camine" hacia atrás */
+    100% {
+        background-position: -296px
+    }
+
+    /*72px de alto*/
+}
+
+@keyframes miguelStanding {
+
+    /* Partimos de la primera viñeta del sprite sheet */
+    0% {
+        background-position: 0
+    }
+
+    /* El tamaño total de ancho del sprite. Es negativo para que no "camine" hacia atrás */
+    100% {
+        background-position: -182px
+    }
+
+    /*72px de alto*/
+}
+
+@keyframes miguelFall {
+
+    /* Partimos de la primera viñeta del sprite sheet */
+    0% {
+        background-position: 0
+    }
+
+    /* El tamaño total de ancho del sprite. Es negativo para que no "camine" hacia atrás */
+    100% {
+        background-position: -254px
+    }
+
+    /*72px de alto*/
+}
+
+.miguel:hover {
+    width: 82px;
+    background-image: url("../images/spiderman2099Fall.png");
+    animation: miguelFall .8s steps(3) infinite;
+}
+
+
+.miguel {
+    width: 38px;
+    height: 67px;
+    /* Tamaño de la viñeta individual */
+    /* Cómo hay establecido un tamaño, centramos con margin:auto */
+    margin: auto;
+    /* Cargamos el sprite (el repeat-x se puede omitir, por defecto se repite) */
+    background-image: url("../images/spiderSheet.png");
+    /* Aplicamos la animación "walk": 0.8seg, 6 viñetas y repetimos infinitamente */
+    animation: miguelWall .6s steps(6) infinite;
+    /* Posicionamos el personaje sobre el camino de madera */
+    position: relative;
+    left: 158px;
+    top: 350px;
+    /*
+para la animacion de golpear tiene direferentes tamaños
+   1-60
+   muevo 60
+    2-66
+    muevo 127
+    3-75
+    muevo 201
+    4-69
+    muevo 270
+    5-53
+    muevo 326
+    6-63
+    muevo 396
+    7-86
+    muevo 486
+    8-65
+    muevo 552
+    9-79
+    muevo 637
+    10-89
+   */
+
+
+
+
+    mix-blend-mode: darken;
+}
+
+.spinner {
+    z-index: 999999;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-image: url("../images/SpiderMan-Spinner.png");
+    background-color: #FFF;
+    background-size: contain;
+    animation: spin 1s ease infinite;
+
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF;
+    z-index: 999999;
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+}
+
+.contenedor-spinner {
+    z-index: 999999;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.contenedor-barra {
+    z-index: 999999;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*Barra de carga*/
+.progress {
+    background: rgba(255, 255, 255, 0.1);
+    justify-content: flex-start;
+    border-radius: 100px;
+    align-items: center;
+    position: relative;
+    padding: 0 5px;
+    display: flex;
+    height: 40px;
+    width: 500px;
+}
+
+.progress-value {
+    animation: load 5s normal forwards;
+    box-shadow: 0 10px 40px -10px #fff;
+    border-radius: 100px;
+    background: #000;
+    height: 30px;
+    width: 0;
+}
+
+.loader-container {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.percentage {
+    z-index: 999999;
+    color: #000;
+    font-family: 'Lato';
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+@keyframes load {
+    20% {
+        width: 20%;
+    }
+
+    40% {
+        width: 40%;
+    }
+
+    60% {
+        width: 60%;
+    }
+
+    80% {
+        width: 80%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}

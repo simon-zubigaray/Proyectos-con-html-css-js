@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4 en linea Counter-Terrorist vs Terrorist</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icons/Favicon.png" type="png">
+</head>
+
+<body>
+    <header>
+
+        <nav class="menu-hamburguesa">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li class="sombraMenu"><img src="images/icons/ico-accion.svg" alt="accion"><a href='#accion'
+                                class="menuCategoria">Accion</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-multijugador.svg" alt="multijugador"><a
+                                href='#multijugador' class="menuCategoria">Multijugador</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-estrategia.svg" alt="estrategia"><a
+                                href='#estrategia' class="menuCategoria">Estrategia</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-aventura.svg" alt="aventura"><a
+                                href='#aventura' class="menuCategoria">Aventura</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-terror.svg" alt="terror"><a href='#terror'
+                                class="menuCategoria">Terror</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <a href="index.html">
+            <img class="icono" src="images/icons/PaginaLogo.svg" alt="icono" id="logo-pagina">
+        </a>
+        <div class="contenedorBusqueda">
+            <img src="images/icons/Lupa.svg" alt="Lupa" id="lupa">
+            <input type="text" name="" id="barra-busqueda" placeholder="Busca tu juego!">
+        </div>
+
+        <nav>
+
+            <ul class="menuUsuario">
+                <li>
+                    <button>
+                        <img src="images/icons/bi_cart-check.svg" alt="carrito" id="carrito" class="carritoCart">
+
+                    </button>
+                </li>
+                <li>
+                    <img src="images/icons/mdi_bell.svg" alt="notificaciones" id="notificaciones">
+                </li>
+                <li>
+                    <button>
+                        <img src="images/icons/tdesign_user.svg" alt="perfil" id="perfil" class="desplegarPerfil">
+                    </button>
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedorCart">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <img src="images/icons/bi_cart-check.svg" alt="carrito">
+                    <p class="badgeCart">3</p>
+                    <div class="shopping-cart-total">
+                        <p>Total: </p>
+                        <p class="destacarPrecio"> $1.853,99</p>
+                    </div>
+                </div> <!--end shopping-cart-header -->
+
+                <ul>
+                    <li class="imgDetalles">
+                        <img class="imgCart" src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy">
+                        <div class="detallesCart">
+                            <p class="item-titulo">Zombie Army Trilogy</p>
+                            <div class="precioEliminar">
+                                <p class="destacarPrecio">$489.99</p>
+                                <a class="eliminar">Eliminar</a>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="imgDetalles">
+                        <img class="imgCart" src="images/carrusel/InsideTheBackrooms.jpg" alt="Inside The Backrooms">
+                        <div class="detallesCart">
+                            <p class="item-titulo">Inside The Backrooms</p>
+                            <div class="precioEliminar">
+                                <p class="destacarPrecio">$599</p>
+                                <a class="eliminar">Eliminar</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="imgDetalles">
+                        <img class="imgCart" src="images/carrusel/Divinity 2.jpg" alt="Divinity Original Sin 2">
+                        <div class="detallesCart">
+                            <p class="item-titulo">Divinity Original Sin 2</p>
+                            <div class="precioEliminar">
+                                <p class="destacarPrecio">$765</p>
+                                <a class="eliminar">Eliminar</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btnComprar">Comprar</button>
+            </div> <!--end shopping-cart -->
+        </div> <!--end container -->
+
+        <div class="desplegableUsuario">
+            <ul class="listaUsuario">
+                <div class="shadowLi">
+
+
+                    <li class="test12">
+                        <img src="images/icons/mdi_user.svg" alt="perfil">
+                        <a class="opcionesUsuario">Mi perfil</a>
+                    </li>
+                </div>
+                <div class="shadowLi">
+                    <li>
+                        <img src="images/icons/uil_edit.svg" alt="editar">
+                        <a class="opcionesUsuario">Editar perfil</a>
+                    </li>
+                </div>
+                <div class="shadowLi">
+                    <li>
+                        <img src="images/icons/ph_configuracion.svg" alt="configuracion">
+                        <a class="opcionesUsuario">Configuración</a>
+                    </li>
+                </div>
+                <div class="shadowLi">
+                    <li>
+                        <img src="images/icons/mdi_cerrar-sesion.svg" alt="salir">
+
+                        <a class="opcionesUsuario" href="login.html">Cerrar sesión</a>
+
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+    </header>
+
+
+
+    <section class="seccion-juego">
+
+        <h1 class="titulo-juego corrimiento-derecha">
+            4 en linea Counter-Terrorist vs Terrorist
+        </h1>
+
+        <p class="breadcrumbs corrimiento-derecha">
+            Juegos -> Estrategia -> 4 en linea Counter-Terrorist vs Terrorist
+        </p>
+
+        <div class="canvasJuego">
+            <section class="seccion-del-canvas-final">
+
+        
+                <canvas id="myCanvas" width="1920" height="1080"></canvas>
+        
+                <div class="dificultad">
+                    <h2 class="seleccionar-dificultad">Seleccione una dificultad:</h2>
+                    <button id="linea4" class="button-para-el-canvas-separacion  button-para-el-canvas">4 en linea</button>
+                    <button id="linea5" class="button-para-el-canvas-separacion  button-para-el-canvas">5 en linea</button>
+                    <button id="linea6" class="button-para-el-canvas-separacion  button-para-el-canvas">6 en linea</button>
+                    <button id="linea7" class="button-para-el-canvas-separacion  button-para-el-canvas">7 en linea</button>
+                    <button id="iniciar-juego"  class="button-para-el-canvas-separacion  button-para-el-canvas">Iniciar juego</button>
+                    <button id="reiniciar-juego" class="button-para-el-canvas-separacion  button-para-el-canvas">Reiniciar juego</button>
+                    <h2 id="timer" class="seleccionar-dificultad">00:00:00</h2>
+                </div>
+            </section>
+        </div>
+
+       <!-- <div class="contenedor-primario-juego">
+            <div class="contenedor-secundario-juego">
+                <div class="contenedor-juego-principal">
+                    <img src="images/paginaJuego/MenuJuego.png" alt="" class="imagen-juego-principal">
+                </div>
+            </div>
+        </div> -->
+
+    </section>
+
+    <!--BOTON COMPARTIR-->
+    <button value="Compartir" class="corrimiento-derecha btn-compartir button_slide slide_right">
+        <img src="images/icons/mdi_share.svg" alt="" id="img-compartir">
+        Compartir
+    </button>
+    <div class="popUp">
+        <ul class="popUpUl">
+            <li><img src="images/icons/logos_facebook-completo.svg" alt="Facebook"></li>
+            <li><img src="images/icons/x(twitter).svg" alt="x"></li>
+            <li><img src="images/icons/skill-icons_instagram.svg" alt="Instagram"></li>
+            <li><img src="images/icons/logos_whatsapp-icon.svg" alt="whatsapp"></li>
+            <li><img src="images/icons/logos_google-gmail.svg" alt="gmail"></li>
+            <li><img src="images/icons/ooui_message.svg" alt="msg"></li>
+        </ul>
+        <div class="compartirLink">
+            <a href="#">GamesHaven.com/multijugador/4EnLinea</a>
+        </div>
+        <img src="images/icons/cerrar-x-rojo.svg" alt="cerrar" class="btnCerrar">
+    </div>
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <div class="contenedor-informacion corrimiento-derecha">
+        <section class="informacion-juego">
+            <div class="info">
+                <img src="images/icons/noto_information.svg" alt="">
+                <!--Icono de informacion-->
+                <h3 class="titulo-info-exc">¡Como Jugar a 4 en linea Counter-Terrorist vs Terrorists?</h3>
+            </div>
+
+            <p class="texto">
+                Te acuerdas del CS:GO? Volvio en forma de 4 en linea.
+                Las normas del cuatro en raya son muy sencillas. Se juega siempre entre 2 jugadores y sobre un tablero
+                de 7x6 casillas.
+                En cada turno cada jugador coloca una ficha de su color en una columna y esta cae hasta la primera
+                casilla disponible.
+                El que consigue ubicar 4 fichas del mismo color seguidas en horizontal, vertical u oblicuo gana. Si
+                nadie lo consigue la
+                partida termina en empate.
+            </p>
+
+            <h3 class="titulo-info">Instrucciones</h3>
+            <div class="linea"></div>
+            <p class="texto">
+                El juego es muy simple solo tienes que colocar el mouse sobre donde quieres colocar la ficha y hacer
+                click para colocarla.
+            </p>
+
+            <h3 class="titulo-info">Fecha de publicación</h3>
+            <div class="linea"></div>
+            <p class="texto">
+                16 de Marzo de 2021
+            </p>
+
+            <h3 class="titulo-info">Desarrollador</h3>
+            <div class="linea"></div>
+            <p class="texto">
+                Valvula
+            </p>
+
+            <h3 class="titulo-info">Plataformas</h3>
+            <div class="linea"></div>
+            <p class="texto">Navegador Web</p>
+            <p class="texto">Android</p>
+            <p class="texto">Windows</p>
+            <p class="texto">Linux</p>
+
+            <h3 class="titulo-info">Fotos y videos</h3>
+            <div class="linea"></div>
+
+            <iframe src="https://www.youtube.com/embed/JBSbiilzg9U?si=mvjzGFTqfyU16a8M" title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen class="video"></iframe>
+
+            <p class="link-video">Link al video: <a href="https://www.youtube.com/watch?v=ll_Wl9cB7vI&t=16s"
+                    class="link-video">https://www.youtube.com/watch?v=ll_Wl9cB7vI&t=16s</a></p>
+
+            <div class="imagenes-muestra">
+                <img src="images/paginaJuego/Imagen-Juego1.jpg" alt="" class="img-muestra">
+                <img src="images/paginaJuego/Imagen-Juego2.jpg" alt="" class="img-muestra img-muestra-2">
+            </div>
+
+        </section>
+
+        <aside class="elementos-costado-derecho">
+
+            <div class="publicidad-aside">
+                <img src="images/paginaJuego/Grupo-petro.png" alt="" class="publicidad">
+            </div>
+
+            <!--Inicio Cards-->
+            <div class="cards-aside">
+                <div>
+                    <div class="div-juego-aside">
+                        <div class="card pago">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$489,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Zombie Army Trilogy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card gratis card-recomendados">
+                        <div class="contenedorImagen">
+                            <img src="images/carrusel/TheSims4.jpg" alt="The Sims 4" class="imgJuego">
+
+                            <div class="badge">
+                                <div class="badge-gratis">
+                                    <p class="textoBadge">Gratis</p>
+                                </div>
+                                <div class="triangulo-gratis"></div>
+                            </div>
+                        </div>
+                        <div class="tituloJuego">
+                            <p>The Sims 4</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--Fin Cards-->
+
+            <div class="publicidad-aside">
+                <img src="images/paginaJuego/Diarco.png" alt="" class="publicidad">
+            </div>
+
+            <!--Inicio Cards-->
+            <div class="cards-aside">
+
+                <div>
+                    <div class="card pago card-accion">
+                        <div class="contenedorImagen">
+                            <img src="images/carrusel/Divinity 2.jpg" alt="Divinity Original Sin 2" class="imgJuego">
+                            <div class="badge">
+                                <div class="badge-pago">
+                                    <p class="textoBadge">$2.999,99</p>
+                                </div>
+                                <div class="triangulo-pago"></div>
+                            </div>
+                            <div class="agregadoCarritoOculto">
+                                <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                <p>Agregado al carrito</p>
+                            </div>
+                            <button class="btnCarrito">
+                                <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                            </button>
+                        </div>
+                        <div class="tituloJuego">
+                            <p>Divinity Original Sin 2</p>
+                        </div>
+                    </div>
+
+                    <div class="card gratis card-multijugador">
+                        <div class="contenedorImagen">
+                            <img src="images/carrusel/Overwatch2.jpg" alt="OverWatch 2" class="imgJuego">
+
+                            <div class="badge">
+                                <div class="badge-gratis">
+                                    <p class="textoBadge">Gratis</p>
+                                </div>
+                                <div class="triangulo-gratis"></div>
+                            </div>
+                        </div>
+                        <div class="tituloJuego">
+                            <p>OverWatch 2</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!--Cards-->
+            <div class="publicidad-aside">
+                <img src="images/paginaJuego/Suma.png" alt="" class="publicidad">
+            </div>
+            <!--Fin Cards-->
+        </aside>
+    </div>
+    <!--------------------------------------------------------------------------------------------------------------------------->
+    <section class="publicidad-larga">
+        <img src="images/paginaJuego/2x1.png" alt="">
+    </section>
+
+    <section class="seccion-comentarios">
+        <div class="contenedor-comentarios">
+            <h3 class="cantidad-comentarios">5 Comentarios</h3>
+
+            <div class="comentario-por-hacer">
+                <img src="images/icons/Foto-SaulGoodman.svg" alt="" class="foto-perfil-comentario">
+                <!--Imagen de perfil-->
+                <input type="text" name="" class="contenedor-hacer-comentario" placeholder="Únete a la discusión...">
+            </div>
+
+            <!--BOTON COMENTAR-->
+            <div class="contenedor-btn-comentar">
+                <input type="button" value="Comentar" class="btn-comentar btn-comentar-efectos">
+            </div>
+
+            <!--Inicio comentario 1-->
+            <div class="contenedor-comentario">
+                <div class="comentario-usuario">
+                    <img src="images/icons/Foto-Juan.svg" alt="" class="imagen-perfil-comentario">
+                    <!--Imagen de perfil-->
+                    <div class="nombre-y-tiempo">
+                        <h4 class="nombre-usuario-comentario">Juan</h4>
+                        <p class="tiempo-comentario">Hace 5 horas</p>
+                    </div>
+
+                </div>
+
+                <p class="comentario distancia-comentario">
+                    La adrenalina no para en este juego. Los combates son intensos y la exploración es fascinante. ¡Una
+                    joya para los amantes de la acción! Realmente lo recomiendo, debes darle una oportunidad!
+                </p>
+
+                <div class="reacciones distancia-comentario">
+                    <img src="images/icons/mdi_like.svg" alt="Like" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">1</p>
+                    <img src="images/icons/mdi_dislike.svg" alt="Dislike" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">0</p>
+                    <p class="btn-responder">Responder</p>
+                </div>
+            </div>
+            <!--Fin comentario 1-->
+
+            <!--Inicio comentario 2-->
+            <div class="contenedor-comentario">
+                <div class="comentario-usuario">
+                    <img src="images/icons/Foto-Carlos.svg" alt="" class="imagen-perfil-comentario">
+                    <!--Imagen de perfil-->
+                    <div class="nombre-y-tiempo">
+                        <h4 class="nombre-usuario-comentario">Carlos</h4>
+                        <p class="tiempo-comentario">Hace 7 horas</p>
+                    </div>
+
+                </div>
+
+                <p class="comentario distancia-comentario">
+                    Este juego es pura diversión. La variedad de modos de juego y los desafíos hacen que cada sesión sea
+                    emocionante. ¡No puedo tener suficiente de él!
+                </p>
+
+                <div class="reacciones distancia-comentario">
+                    <img src="images/icons/mdi_like.svg" alt="Like" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">1</p>
+                    <img src="images/icons/mdi_dislike.svg" alt="Dislike" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">0</p>
+                    <p class="btn-responder">Responder</p>
+                </div>
+            </div>
+            <!--Fin comentario 2-->
+
+            <!--Inicio comentario 3-->
+            <div class="contenedor-comentario">
+                <div class="comentario-usuario">
+                    <img src="images/icons/Foto-Pepe.svg" alt="" class="imagen-perfil-comentario">
+                    <!--Imagen de perfil-->
+                    <div class="nombre-y-tiempo">
+                        <h4 class="nombre-usuario-comentario">Pepe</h4>
+                        <p class="tiempo-comentario">Hace 10 horas</p>
+                    </div>
+
+                </div>
+
+                <p class="comentario distancia-comentario">
+                    Lo que más destaco de este juego es su atención al detalle. Cada rincón del mundo está lleno de vida
+                    y sorpresas, y es evidente el esfuerzo que el equipo de desarrollo puso en cada aspecto del juego.
+                    La historia es envolvente y te mantiene enganchado desde el principio hasta el final, con personajes
+                    memorables y una trama llena de intriga. La música y los efectos sonoros complementan perfectamente
+                    la experiencia. Además, las mecánicas de juego son profundas y satisfactorias. En resumen, este
+                    juego es un ejemplo brillante de lo que puede lograrse en el mundo de los videojuegos.
+                </p>
+
+                <div class="reacciones distancia-comentario">
+                    <img src="images/icons/mdi_like.svg" alt="Like" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">1</p>
+                    <img src="images/icons/mdi_dislike.svg" alt="Dislike" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">0</p>
+                    <p class="btn-responder">Responder</p>
+                </div>
+            </div>
+            <!--Fin comentario 3-->
+
+            <!--Inicio comentario 4-->
+            <div class="contenedor-comentario">
+                <div class="comentario-usuario">
+                    <img src="images/icons/Foto-Gaston.svg" alt="" class="imagen-perfil-comentario">
+                    <!--Imagen de perfil-->
+                    <div class="nombre-y-tiempo">
+                        <h4 class="nombre-usuario-comentario">Gaston</h4>
+                        <p class="tiempo-comentario">Hace 15 horas</p>
+                    </div>
+
+                </div>
+
+                <p class="comentario distancia-comentario">
+                    Este juego es una experiencia cooperativa excepcional.
+                </p>
+
+                <div class="reacciones distancia-comentario">
+                    <img src="images/icons/mdi_like.svg" alt="Like" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">1</p>
+                    <img src="images/icons/mdi_dislike.svg" alt="Dislike" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">0</p>
+                    <p class="btn-responder">Responder</p>
+                </div>
+            </div>
+            <!--Fin comentario 4-->
+
+            <!--Inicio comentario 5-->
+            <div class="contenedor-comentario">
+                <div class="comentario-usuario">
+                    <img src="images/icons/Foto-Alfredo.svg" alt="" class="imagen-perfil-comentario">
+                    <!--Imagen de perfil-->
+                    <div class="nombre-y-tiempo">
+                        <h4 class="nombre-usuario-comentario">Alfredo</h4>
+                        <p class="tiempo-comentario">Hace 23 horas</p>
+                    </div>
+
+                </div>
+
+                <p class="comentario distancia-comentario">
+                    Este juego es un auténtico viaje emocional. La historia es conmovedora y los personajes están tan
+                    bien desarrollados que te sientes conectado con ellos. La narrativa te sumerge en un mundo
+                    fascinante lleno de giros inesperados, y cada decisión que tomas tiene un impacto real en la trama.
+                    Además, los gráficos y la música son simplemente impresionantes, lo que hace que la experiencia sea
+                    aún más inmersiva. En resumen, es un juego que no solo entretiene, sino que también te hace
+                    reflexionar y sentir una amplia gama de emociones.
+                </p>
+
+                <div class="reacciones distancia-comentario">
+                    <img src="images/icons/mdi_like.svg" alt="Like" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">1</p>
+                    <img src="images/icons/mdi_dislike.svg" alt="Dislike" class="puntuacion-comentario">
+                    <p class="cantidad-puntuacion">0</p>
+                    <p class="btn-responder">Responder</p>
+                </div>
+            </div>
+            <!--Fin comentario 5-->
+        </div>
+    </section>
+
+
+
+    <footer>
+        <div class="metodos-pago">
+            <img src="images/icons/formkit_visa.svg" alt="visa" class="icono-pago">
+            <img src="images/icons/fontisto_mastercard.svg" alt="mastercard" class="icono-pago-ext">
+            <img src="images/icons/simple-icons_bankofamerica.svg" alt="bankofamerica" class="icono-pago">
+            <img src="images/icons/fontisto_paypal.svg" alt="paypal" class="icono-pago-ext">
+            <img src="images/icons/arcticons_santander.svg" alt="santander" class="icono-pago">
+            <img src="images/icons/simple-icons_hsbc.svg" alt="hsbc" class="icono-pago">
+            <img src="images/icons/simple-icons_barclays.svg" alt="barclays" class="icono-pago">
+            <img src="images/icons/mdi_bitcoin.svg" alt="bitcoin" class="icono-pago">
+            <img src="images/icons/cib_ethereum.svg" alt="ethereum" class="icono-pago">
+        </div>
+        <div class="categorias"><!--Inicio de categorias footer-->
+            <ul><!--Inicio de links a sitios-->
+                <li class="titulo-categoria">
+                    <p>Links a sitios</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Home</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Categorias</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Juegos nuevos</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Trending</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Actualizados</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Recientes</a>
+                </li>
+                <li class="titulo-subcategoria" id="ultimo-subtitulo">
+                    <a href="">Random</a>
+                </li>
+            </ul> <!--Fin de links a sitios-->
+
+            <ul> <!--Inicio de privacidad-->
+                <li class="titulo-categoria">
+                    <p>Privacidad</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Terminos y condiciones</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Declaración sobre privacidad</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Declaración sobre las cookies</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Faqs</a>
+                </li>
+            </ul> <!--Fin de privacidad-->
+
+            <ul><!--Inicio de información de la compania-->
+                <li class="titulo-categoria">
+                    <p>Información de la compania</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Premios</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Reseñas</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Testimonios</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Contactos</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Actualizaciones</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Ayuda</a>
+                </li>
+            </ul> <!--Fin de información de la compania-->
+
+            <ul><!--Inicio de desarrolladores-->
+                <li class="titulo-categoria">
+                    <p>Desarrolladores</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Gonzalo Ariel Gomez</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Juan Simon Zubigaray</a>
+                </li>
+
+            </ul> <!--Fin de desarrolladores-->
+
+            <ul><!--Inicio de redes sociales-->
+                <li class="titulo-categoria">Redes sociales</li>
+                <li class="titulo-subcategoria">
+                    <a href="">Facebook</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">X</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Instagram</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Discord</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">YouTube</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">TikTok</a>
+                </li>
+            </ul> <!--Fin de redes sociales-->
+
+        </div> <!--Fin de categorias footer-->
+
+        <div class="footer-final">
+            <img src="images/icons/PaginaLogo.svg" alt="logo">
+            <p id="copyright">Copyright © 1996 - 2023 Games Haven</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/desplegable.js"></script>
+    <script type="text/javascript" src="js/desplegablePopUp.js"></script>
+    <script type="text/javascript" src="js/Figura.js"></script>
+    <script type="text/javascript" src="js/Circulo.js"></script>
+    <script type="text/javascript" src="js/Rectangulo.js"></script>
+    <script type="text/javascript" src="js/Jugador.js"></script>
+    <script type="text/javascript" src="js/tablero.js"></script>
+    <script type="text/javascript" src="js/Ficha.js"></script>
+    <script type="text/javascript" src="js/Juego.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    
+</body>
+
+</html>

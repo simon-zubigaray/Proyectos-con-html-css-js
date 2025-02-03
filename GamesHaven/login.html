@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icons/Favicon.png" type="png">
+</head>
+
+<body>
+
+    <header>
+        <nav class="menu-hamburguesa">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li class="sombraMenu"><img src="images/icons/ico-accion.svg" alt="accion"><a href='#accion'
+                                class="menuCategoria">Accion</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-multijugador.svg" alt="multijugador"><a
+                                href='#multijugador' class="menuCategoria">Multijugador</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-estrategia.svg" alt="estrategia"><a
+                                href='#estrategia' class="menuCategoria">Estrategia</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-aventura.svg" alt="aventura"><a
+                                href='#aventura' class="menuCategoria">Aventura</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-terror.svg" alt="terror"><a href='#terror'
+                                class="menuCategoria">Terror</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <a href="index.html">
+            <img class="icono" src="images/icons/PaginaLogo.svg" alt="icono" id="logo-pagina">
+        </a>
+        <div class="contenedorBusqueda">
+            <img src="images/icons/Lupa.svg" alt="Lupa" id="lupa">
+            <input type="text" name="" id="barra-busqueda" placeholder="Busca tu juego!">
+        </div>
+
+        <nav>
+
+            <ul class="menuUsuario">
+                <li>
+                    <img src="images/icons/bi_cart-check.svg" alt="carrito" id="carrito">
+                </li>
+                <li>
+                    <img src="images/icons/mdi_bell.svg" alt="notificaciones" id="notificaciones">
+                </li>
+                <li>
+                    <img src="images/icons/tdesign_user.svg" alt="perfil" id="perfil">
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedorCart">
+            <div class="shopping-cart">
+                <div class="shopping-cart-header">
+                    <img src="images/icons/bi_cart-check.svg" alt="carrito">
+                    <p class="badgeCart">3</p>
+                    <div class="shopping-cart-total">
+                        <p>Total: </p>
+                        <p class="destacarPrecio"> $1.853,99</p>
+                    </div>
+                </div> <!--end shopping-cart-header -->
+
+                <ul>
+                    <li class="imgDetalles">
+                        <img class="imgCart" src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy">
+                        <div class="detallesCart">
+                            <p class="item-titulo">Zombie Army Trilogy</p>
+                            <div class="precioEliminar">
+                                <p class="destacarPrecio">$489.99</p>
+                                <a class="eliminar">Eliminar</a>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li class="imgDetalles">
+                        <img class="imgCart" src="images/carrusel/InsideTheBackrooms.jpg" alt="Inside The Backrooms">
+                        <div class="detallesCart">
+                            <p class="item-titulo">Inside The Backrooms</p>
+                            <div class="precioEliminar">
+                                <p class="destacarPrecio">$599</p>
+                                <a class="eliminar">Eliminar</a>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="imgDetalles">
+                        <img class="imgCart" src="images/carrusel/Divinity 2.jpg" alt="Divinity Original Sin 2">
+                        <div class="detallesCart">
+                            <p class="item-titulo">Divinity Original Sin 2</p>
+                            <div class="precioEliminar">
+                                <p class="destacarPrecio">$765</p>
+                                <a class="eliminar">Eliminar</a>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <button class="btnComprar">Comprar</button>
+            </div> <!--end shopping-cart -->
+        </div> <!--end container -->
+
+        <div class="desplegableUsuario">
+            <ul class="listaUsuario">
+                <div class="shadowLi">
+
+
+                    <li class="test12">
+                        <img src="images/icons/mdi_user.svg" alt="perfil">
+                        <p class="opcionesUsuario">Mi perfil</p>
+                    </li>
+                </div>
+                <div class="shadowLi">
+                    <li>
+                        <img src="images/icons/uil_edit.svg" alt="editar">
+                        <p class="opcionesUsuario">Editar perfil</p>
+                    </li>
+                </div>
+                <div class="shadowLi">
+                    <li>
+                        <img src="images/icons/ph_configuracion.svg" alt="configuracion">
+                        <p class="opcionesUsuario">Configuración</p>
+                    </li>
+                </div>
+                <div class="shadowLi">
+                    <li>
+                        <img src="images/icons/mdi_cerrar-sesion.svg" alt="salir">
+                        <p class="opcionesUsuario">Cerrar sesión</p>
+                    </li>
+                </div>
+            </ul>
+        </div>
+
+    </header>
+
+    <div class="contenedor-form">
+        <section class="formulario-iniciar-sesion">
+
+            <div class="contenedor-titulo-iniciar-sesion">
+                <h2 class="titulo-iniciar-sesion">Iniciar sesión</h2>
+            </div>
+
+
+            <form class="formulario" action="index.html">
+                <div class="iniciar-con-google">
+                    <a href="index.html">
+                        <button type="button" class="btn-iniciar-red-social google">
+                            <img src="images/icons/devicon_google.svg" alt="" class="icono-google">
+                            Iniciar sesión con Google</button>
+                    </a>
+                </div>
+
+                <div class="iniciar-con-facebook">
+                    <a href="index.html">
+                        <button type="submit" class="btn-iniciar-red-social facebook">
+                            <img src="images/icons/logos_facebook.svg" alt="" class="icono-facebook">
+                            Iniciar sesión con Facebook</button>
+                    </a>
+                </div>
+
+                <div class="contenedor-texto-intermedio">
+                    <div class="linea-texto-intermedio"></div>
+                    <h2 class="texto-intermedio">O</h2>
+                    <div class="linea-texto-intermedio"></div>
+                </div>
+
+
+                <div class="contenedor-inputs">
+                    <div>
+                        <label class="texto-label-iniciar-sesion">
+                            Mail <span class="asterisco"> *</span>
+                        </label>
+
+                        <input type="email" name="email" id="" class="contenedor-input-iniciar-sesion"
+                            placeholder="Johndoe21312@gmail.com" required>
+                    </div>
+
+                    <div id="input-contraseña">
+                        <label class="texto-label-iniciar-sesion">
+                            Contraseña <span class="asterisco"> *</span>
+                        </label>
+
+                        <input type="password" name="password" id="" class="contenedor-input-iniciar-sesion" required>
+                    </div>
+
+                </div>
+                <div class="contenedor-captcha">
+                    <div class="captcha">
+
+                        <div class="captcha-confirmacion">
+
+                        </div>
+                        <p class="captcha-texto">No soy un robot</p>
+                        <div class="captcha-flechas">
+                            <img src="images/icons/captcha-flechas.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contenedor-btn-iniciar-sesion">
+                    <a class="btn-link-registro" id="btn-inicio-sesion">
+                        <button type="button" class="btn-iniciar-sesion texto-btn-iniciar-sesion btnfos btnfos-4"
+                            required>Iniciar sesión
+                        </button>
+                    </a>
+                </div>
+
+                <p><span class="ir-a-registrarse">¿Aún no tienes cuenta?</span>
+                    <a href="signup.html" class="registrate-ahora">Registrate ahora</a>
+                </p>
+
+            </form>
+            <div class="registroOculto">
+                <p>Te Ingresaste con exito! ✓</p>
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="metodos-pago">
+            <img src="images/icons/formkit_visa.svg" alt="visa" class="icono-pago">
+            <img src="images/icons/fontisto_mastercard.svg" alt="mastercard" class="icono-pago-ext">
+            <img src="images/icons/simple-icons_bankofamerica.svg" alt="bankofamerica" class="icono-pago">
+            <img src="images/icons/fontisto_paypal.svg" alt="paypal" class="icono-pago-ext">
+            <img src="images/icons/arcticons_santander.svg" alt="santander" class="icono-pago">
+            <img src="images/icons/simple-icons_hsbc.svg" alt="hsbc" class="icono-pago">
+            <img src="images/icons/simple-icons_barclays.svg" alt="barclays" class="icono-pago">
+            <img src="images/icons/mdi_bitcoin.svg" alt="bitcoin" class="icono-pago">
+            <img src="images/icons/cib_ethereum.svg" alt="ethereum" class="icono-pago">
+        </div>
+        <div class="categorias"><!--Inicio de categorias footer-->
+            <ul><!--Inicio de links a sitios-->
+                <li class="titulo-categoria">
+                    <p>Links a sitios</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Home</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Categorias</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Juegos nuevos</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Trending</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Actualizados</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Recientes</a>
+                </li>
+                <li class="titulo-subcategoria" id="ultimo-subtitulo">
+                    <a href="">Random</a>
+                </li>
+            </ul> <!--Fin de links a sitios-->
+
+            <ul> <!--Inicio de privacidad-->
+                <li class="titulo-categoria">
+                    <p>Privacidad</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Terminos y condiciones</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Declaración sobre privacidad</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Declaración sobre las cookies</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Faqs</a>
+                </li>
+            </ul> <!--Fin de privacidad-->
+
+            <ul><!--Inicio de información de la compania-->
+                <li class="titulo-categoria">
+                    <p>Información de la compania</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Premios</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Reseñas</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Testimonios</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Contactos</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Actualizaciones</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Ayuda</a>
+                </li>
+            </ul> <!--Fin de información de la compania-->
+
+            <ul><!--Inicio de desarrolladores-->
+                <li class="titulo-categoria">
+                    <p>Desarrolladores</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Gonzalo Ariel Gomez</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Juan Simon Zubigaray</a>
+                </li>
+
+            </ul> <!--Fin de desarrolladores-->
+
+            <ul><!--Inicio de redes sociales-->
+                <li class="titulo-categoria">Redes sociales</li>
+                <li class="titulo-subcategoria">
+                    <a href="">Facebook</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">X</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Instagram</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Discord</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">YouTube</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">TikTok</a>
+                </li>
+            </ul> <!--Fin de redes sociales-->
+
+        </div> <!--Fin de categorias footer-->
+
+        <div class="footer-final">
+            <img src="images/icons/PaginaLogo.svg" alt="logo">
+            <p id="copyright">Copyright © 1996 - 2023 Games Haven</p>
+        </div>
+    </footer>
+    <script src="js/formulario.js"></script>
+
+</body>
+
+</html>

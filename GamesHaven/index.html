@@ -1,0 +1,1804 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GamesHaven</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/icons/Favicon.png" type="png">
+</head>
+
+<body>
+    <div class="overlay">
+        <div class="contenedor-spinner">
+            <div class="loadingio-spinner-bean-eater-2c1bqqrcco2">
+                <div class="ldio-czz9f8mv5u">
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contenedor-barra">
+            <div class="progress">
+                <div class="progress-value"></div>
+            </div>
+        </div>
+
+        <div class="loader-container">
+            <div class="percentage" id="percentage">0%</div>
+        </div>
+    </div>
+    <header class="headerMobile">
+        <nav class="menu-hamburguesa">
+            <input type="checkbox" class="toggler">
+            <div class="hamburger">
+                <div></div>
+            </div>
+            <div class="menu">
+                <div>
+                    <ul>
+                        <li class="sombraMenu"><img src="images/icons/ico-accion.svg" alt="accion"><a href='#accion'
+                                class="menuCategoria">Accion</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-multijugador.svg" alt="multijugador"><a
+                                href='#multijugador' class="menuCategoria">Multijugador</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-estrategia.svg" alt="estrategia"><a
+                                href='#estrategia' class="menuCategoria">Estrategia</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-aventura.svg" alt="aventura"><a
+                                href='#aventura' class="menuCategoria">Aventura</a></li>
+                        <li class="sombraMenu"><img src="images/icons/ico-terror.svg" alt="terror"><a href='#terror'
+                                class="menuCategoria">Terror</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!--Fin Menu Hamburguesa -->
+        <a href="index.html">
+            <img class="iconoLogo" src="images/icons/PaginaLogo.svg" alt="icono" id="logo-pagina">
+        </a>
+
+
+
+        <nav>
+            <ul class="menuUsuario">
+                <li> <button>
+                        <img src="images/icons/lupaBlanca.svg" alt="Lupa" id="lupa" class="lupa iconoHeader">
+                    </button>
+
+                </li>
+                <li> <img src="images/icons/bi_cart-check.svg" alt="carrito" id="carrito" class="carrito iconoHeader">
+                </li>
+                <li>
+                    <img src="images/icons/mdi_bell.svg" alt="notificaciones" id="notificaciones"
+                        class="notificaciones iconoHeader">
+                </li>
+
+                <li>
+                    <img src="images/icons/tdesign_user.svg" alt="perfil" id="perfil" class="perfil iconoHeader">
+                </li>
+            </ul>
+        </nav>
+        <div class="contenedorBarraBusqueda">
+            <input type="text" name="" class="barra-busqueda" placeholder="Busca tu juego!">
+        </div>
+    </header>
+    <div class="headerDesktop">
+        <header>
+            <nav class="menu-hamburguesa">
+                <input type="checkbox" class="toggler">
+                <div class="hamburger">
+                    <div></div>
+                </div>
+                <div class="menu">
+                    <div>
+                        <ul>
+                            <li class="sombraMenu"><img src="images/icons/ico-accion.svg" alt="accion"><a href='#accion'
+                                    class="menuCategoria">Accion</a></li>
+                            <li class="sombraMenu"><img src="images/icons/ico-multijugador.svg" alt="multijugador"><a
+                                    href='#multijugador' class="menuCategoria">Multijugador</a></li>
+                            <li class="sombraMenu"><img src="images/icons/ico-estrategia.svg" alt="estrategia"><a
+                                    href='#estrategia' class="menuCategoria">Estrategia</a></li>
+                            <li class="sombraMenu"><img src="images/icons/ico-aventura.svg" alt="aventura"><a
+                                    href='#aventura' class="menuCategoria">Aventura</a></li>
+                            <li class="sombraMenu"><img src="images/icons/ico-terror.svg" alt="terror"><a href='#terror'
+                                    class="menuCategoria">Terror</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+            <a href="index.html">
+                <img class="icono" src="images/icons/PaginaLogo.svg" alt="icono" id="logo-pagina">
+            </a>
+            <div class="contenedorBusqueda">
+                <img src="images/icons/Lupa.svg" alt="Lupa" id="lupa">
+                <input type="text" name="" id="barra-busqueda" placeholder="Busca tu juego!">
+            </div>
+
+            <nav>
+
+                <ul class="menuUsuario">
+                    <li>
+                        <button>
+                            <img src="images/icons/bi_cart-check.svg" alt="carrito" id="carrito" class="carritoCart">
+
+                        </button>
+                    </li>
+                    <li>
+                        <img src="images/icons/mdi_bell.svg" alt="notificaciones" id="notificaciones">
+                    </li>
+                    <li>
+                        <button>
+                            <img src="images/icons/tdesign_user.svg" alt="perfil" id="perfil" class="desplegarPerfil">
+                        </button>
+                    </li>
+                </ul>
+            </nav>
+            <div class="contenedorCart">
+                <div class="shopping-cart">
+                    <div class="shopping-cart-header">
+                        <img src="images/icons/bi_cart-check.svg" alt="carrito">
+                        <p class="badgeCart">3</p>
+                        <div class="shopping-cart-total">
+                            <p>Total: </p>
+                            <p class="destacarPrecio"> $1.853,99</p>
+                        </div>
+                    </div> <!--end shopping-cart-header -->
+
+                    <ul>
+                        <li class="imgDetalles">
+                            <img class="imgCart" src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy">
+                            <div class="detallesCart">
+                                <p class="item-titulo">Zombie Army Trilogy</p>
+                                <div class="precioEliminar">
+                                    <p class="destacarPrecio">$489.99</p>
+                                    <a class="eliminar">Eliminar</a>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li class="imgDetalles">
+                            <img class="imgCart" src="images/carrusel/InsideTheBackrooms.jpg"
+                                alt="Inside The Backrooms">
+                            <div class="detallesCart">
+                                <p class="item-titulo">Inside The Backrooms</p>
+                                <div class="precioEliminar">
+                                    <p class="destacarPrecio">$599</p>
+                                    <a class="eliminar">Eliminar</a>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="imgDetalles">
+                            <img class="imgCart" src="images/carrusel/Divinity 2.jpg" alt="Divinity Original Sin 2">
+                            <div class="detallesCart">
+                                <p class="item-titulo">Divinity Original Sin 2</p>
+                                <div class="precioEliminar">
+                                    <p class="destacarPrecio">$765</p>
+                                    <a class="eliminar">Eliminar</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                    <button class="btnComprar">Comprar</button>
+                </div> <!--end shopping-cart -->
+            </div> <!--end container -->
+
+            <div class="desplegableUsuario">
+                <ul class="listaUsuario">
+                    <div class="shadowLi">
+
+
+                        <li class="test12">
+                            <img src="images/icons/mdi_user.svg" alt="perfil">
+                            <a class="opcionesUsuario">Mi perfil</a>
+                        </li>
+                    </div>
+                    <div class="shadowLi">
+                        <li>
+                            <img src="images/icons/uil_edit.svg" alt="editar">
+                            <a class="opcionesUsuario">Editar perfil</a>
+                        </li>
+                    </div>
+                    <div class="shadowLi">
+                        <li>
+                            <img src="images/icons/ph_configuracion.svg" alt="configuracion">
+                            <a class="opcionesUsuario">Configuración</a>
+                        </li>
+                    </div>
+                    <div class="shadowLi">
+                        <li>
+                            <img src="images/icons/mdi_cerrar-sesion.svg" alt="salir">
+
+                            <a class="opcionesUsuario" href="login.html">Cerrar sesión</a>
+
+                        </li>
+                    </div>
+                </ul>
+            </div>
+
+        </header>
+    </div>
+
+    <section>
+
+
+        <!--Carrusel -->
+
+        <div class="categoriaJuegos">
+
+
+            <h2>Recomendados para ti</h2>
+            <div class="carrusel-botones">
+                <button type="button" id="prevBtn" data-carrusel="carrusel-recomendados" data-cards="card-recomendados"
+                    data-index="0">
+                    <img src="images/icons/LeftButton.svg" alt="Anterior" class="leftButton">
+                </button>
+
+                <div class="contenedor-carrusel">
+
+                    <div class="carrusel carrusel-recomendados">
+                        <div class="grandeConCuatro">
+                            <a href="juego.html">
+                                <div class="card-grande gratis card-recomendados">
+                                    <div class="contenedorImagen-grande">
+                                        <img src="images/carrusel/4enLineaCTvsTT.png" alt="4 en linea CT vs TT"
+                                            class="imgJuego-grande">
+
+                                        <div class="badge">
+                                            <div class="badge-gratis-grande">
+                                                <p class="textoBadge-grande">Gratis</p>
+                                            </div>
+                                            <div class="triangulo-gratis-grande"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tituloJuego-grande">
+                                        <p>4 en linea CT vs TT</p>
+                                    </div>
+                                </div>
+                            </a>
+
+                            <div class="cuatroCards">
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/Divinity 2.jpg" alt="Divinity Original Sin 2"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$2.999,99</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Divinity Original Sin 2</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/HalfLife2.jpg" alt="Half Life 2" class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$765</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Half Life 2</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/SekiroShadowDieTwice.jpg" alt="Sekiro GOTY Edition"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$1299</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Sekiro GOTY Edition</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/DeadSpace.jpg" alt="Dead Space" class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$7.999</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Dead Space</p>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                        <div class="grandeConCuatro">
+                            <div class="pago card-recomendados card-grande">
+                                <div class="contenedorImagen-grande">
+                                    <img src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy"
+                                        class="imgJuego-grande">
+                                    <div class="badge">
+                                        <div class="badge-pago-grande">
+                                            <p class="textoBadge-grande">$489,99</p>
+                                        </div>
+                                        <div class="triangulo-pago-grande"></div>
+                                    </div>
+                                    <div class="agregadoCarritoOculto">
+                                        <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                            class="imgCarrito">
+                                        <p>Agregado al carrito</p>
+                                    </div>
+                                    <button class="btnCarrito btnGrande">
+                                        <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                            class="imgCarritoGrande">
+                                    </button>
+                                </div>
+                                <div class="tituloJuego-grande">
+                                    <p>Zombie Army Trilogy</p>
+                                </div>
+                            </div>
+
+                            <div class="cuatroCards">
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/HuntTheNight.jpg" alt="Hunt The Night"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$1.400</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Hunt The Night</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/KillingFloor2.jpg" alt="Killing Floor 2"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$329,99</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Killing Floor 2</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/TitanFall2.jpg" alt="Titan Fall 2" class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$1399</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Titan Fall 2</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/VampireSurvivors.jpg" alt="Vampire Survivors"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$299</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Vampire Survivors</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="grandeConCuatro">
+
+                            <div class="pago card-recomendados card-grande">
+                                <div class="contenedorImagen-grande">
+                                    <img src="images/carrusel/RedDeadRedemption2.jpg" alt="Red Dead Redemption 2"
+                                        class="imgJuego-grande">
+                                    <div class="badge">
+                                        <div class="badge-pago-grande">
+                                            <p class="textoBadge-grande">$3.728,67</p>
+                                        </div>
+                                        <div class="triangulo-pago-grande"></div>
+                                    </div>
+                                    <div class="agregadoCarritoOculto">
+                                        <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                            class="imgCarrito">
+                                        <p>Agregado al carrito</p>
+                                    </div>
+                                    <button class="btnCarrito btnGrande">
+                                        <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                            class="imgCarritoGrande">
+                                    </button>
+                                </div>
+                                <div class="tituloJuego-grande">
+                                    <p>Red Dead Redemption 2</p>
+                                </div>
+                            </div>
+
+                            <div class="cuatroCards">
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/Papers Please.jpg" alt="Papers Please"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$129,99</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Papers Please</p>
+                                    </div>
+                                </div>
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/TheWitcher3.jpg" alt="Killing Floor 2"
+                                            class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$6699</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>The Witcher 3: Wild Hunt</p>
+                                    </div>
+                                </div>
+
+                                <div class="card gratis card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/TheSims4.jpg" alt="The Sims 4" class="imgJuego">
+
+                                        <div class="badge">
+                                            <div class="badge-gratis">
+                                                <p class="textoBadge">Gratis</p>
+                                            </div>
+                                            <div class="triangulo-gratis"></div>
+                                        </div>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>The Sims 4</p>
+                                    </div>
+                                </div>
+
+                                <div class="card pago card-recomendados">
+                                    <div class="contenedorImagen">
+                                        <img src="images/carrusel/Skyrim.jpg" alt="Skyrim" class="imgJuego">
+                                        <div class="badge">
+                                            <div class="badge-pago">
+                                                <p class="textoBadge">$6.999,99</p>
+                                            </div>
+                                            <div class="triangulo-pago"></div>
+                                        </div>
+                                        <div class="agregadoCarritoOculto">
+                                            <img src="images/icons/bi_cart-checked-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                            <p>Agregado al carrito</p>
+                                        </div>
+                                        <button class="btnCarrito">
+                                            <img src="images/icons/bi_cart-check-black.svg" alt="carrito"
+                                                class="imgCarrito">
+                                        </button>
+                                    </div>
+                                    <div class="tituloJuego">
+                                        <p>Skyrim</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button type="button" id="nextBtn" data-carrusel="carrusel-recomendados" data-cards="card-recomendados"
+                    data-index="0">
+                    <img src="images/icons/RightButton.svg" alt="Siguiente" class="rightButton">
+                </button>
+            </div>
+        </div>
+
+        <div class="categoriaJuegos">
+            <h2 id="accion">Acción</h2>
+            <div class="carrusel-botones">
+                <button type="button" id="prevBtn" data-carrusel="carrusel-accion" data-cards="card-accion"
+                    data-index="0">
+                    <img src="images/icons/LeftButton.svg" alt="Anterior" class="leftButton">
+                </button>
+                <div class="contenedor-carrusel">
+
+                    <div class="carrusel carrusel-accion">
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$489,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Zombie Army Trilogy</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Divinity 2.jpg" alt="Divinity Original Sin 2"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$2.999,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Divinity Original Sin 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/HalfLife2.jpg" alt="Half Life 2" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$765</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Half Life 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/SekiroShadowDieTwice.jpg" alt="Sekiro GOTY Edition"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$1299</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Sekiro GOTY Edition</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/DeadSpace.jpg" alt="Dead Space" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$7.999</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Dead Space</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/HuntTheNight.jpg" alt="Hunt The Night" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$1.400</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Hunt The Night</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/KillingFloor2.jpg" alt="Killing Floor 2" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$329,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Killing Floor 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/TitanFall2.jpg" alt="Titan Fall 2" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$1399</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Titan Fall 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-accion">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/VampireSurvivors.jpg" alt="Vampire Survivors"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$299</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Vampire Survivors</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                </div>
+                <button type="button" id="nextBtn" data-carrusel="carrusel-accion" data-cards="card-accion"
+                    data-index="0">
+                    <img src="images/icons/RightButton.svg" alt="Siguiente" class="rightButton">
+                </button>
+            </div>
+        </div>
+        <div class="categoriaJuegos">
+            <h2 id="multijugador">Multijugador</h2>
+            <div class="carrusel-botones">
+                <button type="button" id="prevBtnMulti" data-carrusel="carrusel-multijugador"
+                    data-cards="card-multijugador" data-index="0">
+                    <img src="images/icons/LeftButton.svg" alt="Anterior" class="leftButton">
+                </button>
+
+                <div class="contenedor-carrusel">
+
+                    <div class="carrusel carrusel-multijugador">
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Yu-Gi-Oh!.jpg" alt="Yu-Gi-Oh!" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Yu-Gi-Oh!</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Rust.jpg" alt="Rust" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$3.950</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Rust</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/AlbionOnline.jpg" alt="Albion Online" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Albion Online</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/GolfWithFriends.jpg" alt="Golf With Your Friends"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$749</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Golf With Your Friends</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Warframe.jpg" alt="Warframe" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Warframe</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Destiny2.jpg" alt="Destiny 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Destiny 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Overwatch2.jpg" alt="OverWatch 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>OverWatch 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/TheLordOfTheRingsOnline.jpg"
+                                    alt="The Lord Of The Rings Online" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Lord Of The Rings Online</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Dota2.jpg" alt="Dota 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Dota 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/PathOfExile.jpg" alt="Path Of Exile" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Path Of Exile</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/TeamFortress2.jpg" alt="Team Fortress 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Team Fortress 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/BlackDesert.jpg" alt="Black Desert" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$312</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Black Desert</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Counter-Strike 2.jpg" alt="Counter-Strike 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Counter-Strike 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-multijugador">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/RuneScape.jpg" alt="RuneScape" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>RuneScape</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button type="button" id="nextBtnMulti" data-carrusel="carrusel-multijugador"
+                    data-cards="card-multijugador" data-index="0">
+                    <img src="images/icons/RightButton.svg" alt="Siguiente" class="rightButton">
+                </button>
+            </div>
+        </div>
+        <div class="categoriaJuegos">
+
+            <h2 id="estrategia">Estrategia</h2>
+
+            <div class="carrusel-botones">
+                <button type="button" id="prevBtn" data-carrusel="carrusel-estrategia" data-cards="card-estrategia"
+                    data-index="0">
+                    <img src="images/icons/LeftButton.svg" alt="Anterior" class="leftButton">
+                </button>
+
+                <div class="contenedor-carrusel">
+
+                    <div class="carrusel carrusel-estrategia">
+
+                        <div class="card pago card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Divinity 2.jpg" alt="Divinity 2" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$2.999,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Divinity 2</p>
+                            </div>
+                        </div>
+                        <a href="/juego.html">
+                            <div class="card gratis card-estrategia">
+                                <div class="contenedorImagen">
+                                    <img src="images/carrusel/4enLineaCTvsTT.png" alt="4 en linea CT vs TT"
+                                        class="imgJuego">
+
+                                    <div class="badge">
+                                        <div class="badge-gratis">
+                                            <p class="textoBadge">Gratis</p>
+                                        </div>
+                                        <div class="triangulo-gratis"></div>
+                                    </div>
+                                </div>
+                                <div class="tituloJuego">
+                                    <p>4 en linea CT vs TT</p>
+                                </div>
+                            </div>
+                        </a>
+
+                        <div class="card gratis card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Counter-Strike 2.jpg" alt="Counter-Strike 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Counter-Strike 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/BadNorth.jpg" alt="Bad North" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$500</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Bad North</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Dota2.jpg" alt="Dota 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Dota 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/PathOfExile.jpg" alt="Path Of Exile" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Path Of Exile</p>
+                            </div>
+                        </div>
+
+
+                        <div class="card gratis card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Overwatch2.jpg" alt="OverWatch 2" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>OverWatch 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Yu-Gi-Oh!.jpg" alt="Yu-Gi-Oh!" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Yu-Gi-Oh!</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-estrategia">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Warframe.jpg" alt="Warframe" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Warframe</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button type="button" id="nextBtn" data-carrusel="carrusel-estrategia" data-cards="card-estrategia"
+                    data-index="0">
+                    <img src="images/icons/RightButton.svg" alt="Siguiente" class="rightButton">
+                </button>
+            </div>
+
+        </div>
+        <div class="categoriaJuegos">
+            <h2 id="aventura">Aventura</h2>
+
+            <div class="carrusel-botones">
+                <button type="button" id="prevBtn" data-carrusel="carrusel-aventura" data-cards="card-aventura"
+                    data-index="0">
+                    <img src="images/icons/LeftButton.svg" alt="Anterior" class="leftButton">
+                </button>
+
+                <div class="contenedor-carrusel">
+
+                    <div class="carrusel carrusel-aventura">
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Terraria.jpg" alt="Terraria" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$129,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Terraria</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Neccese.jpg" alt="Necesse" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$139,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Necesse</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Papers Please.jpg" alt="Papers Please" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$129,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Papers Please</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/KerbalSpaceProgram.jpg" alt="Kerbal Space Program"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$1299</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Kerbal Space Program</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/OuterWilds.jpg" alt="Outer Wilds" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$1.799,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Outer Wilds</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/RedDeadRedemption2.jpg" alt="Red Dead Redemption 2"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$3.728,67</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Red Dead Redemption 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/TheWitcher3.jpg" alt="Killing Floor 2" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$6699</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>The Witcher 3: Wild Hunt</p>
+                            </div>
+                        </div>
+
+                        <div class="card gratis card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/TheSims4.jpg" alt="The Sims 4" class="imgJuego">
+
+                                <div class="badge">
+                                    <div class="badge-gratis">
+                                        <p class="textoBadge">Gratis</p>
+                                    </div>
+                                    <div class="triangulo-gratis"></div>
+                                </div>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>The Sims 4</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-aventura">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/Skyrim.jpg" alt="Skyrim" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$6.999,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Skyrim</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+                <button type="button" id="nextBtn" data-carrusel="carrusel-aventura" data-cards="card-aventura"
+                    data-index="0">
+                    <img src="images/icons/RightButton.svg" alt="Siguiente" class="rightButton">
+                </button>
+            </div>
+        </div>
+        <div class="categoriaJuegos">
+            <h2 id="terror">Terror</h2>
+            <div class="carrusel-botones">
+                <button type="button" id="prevBtn" data-carrusel="carrusel-terror" data-cards="card-terror"
+                    data-index="0">
+                    <img src="images/icons/LeftButton.svg" alt="Anterior" class="leftButton">
+                </button>
+
+                <div class="contenedor-carrusel">
+
+                    <div class="carrusel carrusel-terror">
+
+                        <div class="card pago card-terror">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/InsideTheBackrooms.jpg" alt="Inside The Backroom"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$599</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Inside The Backroom</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-terror">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/DeadSpace.jpg" alt="Dead Space" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$7.999</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Dead Space</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-terror">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/ZombieArmyTrilogy.jpg" alt="Zombie Army Trilogy"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$489,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Zombie Army Trilogy</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-terror">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/KillingFloor2.jpg" alt="Killing Floor 2" class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$329,99</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>Killing Floor 2</p>
+                            </div>
+                        </div>
+
+                        <div class="card pago card-terror">
+                            <div class="contenedorImagen">
+                                <img src="images/carrusel/The Outlast Trials.jpg" alt="The Outlast Trials"
+                                    class="imgJuego">
+                                <div class="badge">
+                                    <div class="badge-pago">
+                                        <p class="textoBadge">$2100</p>
+                                    </div>
+                                    <div class="triangulo-pago"></div>
+                                </div>
+                                <div class="agregadoCarritoOculto">
+                                    <img src="images/icons/bi_cart-checked-black.svg" alt="carrito" class="imgCarrito">
+                                    <p>Agregado al carrito</p>
+                                </div>
+                                <button class="btnCarrito">
+                                    <img src="images/icons/bi_cart-check-black.svg" alt="carrito" class="imgCarrito">
+                                </button>
+                            </div>
+                            <div class="tituloJuego">
+                                <p>The Outlast Trials</p>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+                <button type="button" id="nextBtn" data-carrusel="carrusel-terror" data-cards="card-terror"
+                    data-index="0">
+                    <img src="images/icons/RightButton.svg" alt="Siguiente" class="rightButton">
+                </button>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer>
+
+        <div class="metodos-pago">
+            <img src="images/icons/formkit_visa.svg" alt="visa" class="icono-pago icono-pago-mobile">
+            <img src="images/icons/fontisto_mastercard.svg" alt="mastercard" class="icono-pago-ext icono-pago-mobile">
+            <img src="images/icons/simple-icons_bankofamerica.svg" alt="bankofamerica"
+                class="icono-pago icono-pago-mobile">
+            <img src="images/icons/fontisto_paypal.svg" alt="paypal" class="icono-pago-ext icono-pago-mobile">
+            <img src="images/icons/arcticons_santander.svg" alt="santander" class="icono-pago icono-pago-mobile">
+            <img src="images/icons/simple-icons_hsbc.svg" alt="hsbc" class="icono-pago icono-pago-mobile">
+            <img src="images/icons/simple-icons_barclays.svg" alt="barclays" class="icono-pago icono-pago-mobile">
+            <img src="images/icons/mdi_bitcoin.svg" alt="bitcoin" class="icono-pago icono-pago-mobile">
+            <img src="images/icons/cib_ethereum.svg" alt="ethereum" class="icono-pago icono-pago-mobile">
+        </div>
+
+        <div class="categorias"><!--Inicio de categorias footer-->
+            <ul class="ul-categorias-footer"><!--Inicio de links a sitios-->
+                <li class="titulo-categoria">
+                    <p>Links a sitios</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Home</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Categorias</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Juegos nuevos</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Trending</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Actualizados</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Recientes</a>
+                </li>
+                <li class="titulo-subcategoria" id="ultimo-subtitulo">
+                    <a href="">Random</a>
+                </li>
+            </ul> <!--Fin de links a sitios-->
+
+            <ul class="ul-categorias-footer"> <!--Inicio de privacidad-->
+                <li class="titulo-categoria">
+                    <p>Privacidad</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Terminos y condiciones</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Declaración sobre privacidad</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Declaración sobre las cookies</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Faqs</a>
+                </li>
+            </ul> <!--Fin de privacidad-->
+
+            <ul class="ul-categorias-footer"><!--Inicio de información de la compania-->
+                <li class="titulo-categoria">
+                    <p>Información de </p>
+                    <p>la compania</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Sobre nosotros</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Premios</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Reseñas</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Testimonios</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Contactos</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Actualizaciones</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Ayuda</a>
+                </li>
+            </ul> <!--Fin de información de la compania-->
+
+            <ul class="ul-categorias-footer"><!--Inicio de desarrolladores-->
+                <li class="titulo-categoria">
+                    <p class="desarrolladores">Desarrolladores</p>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Gonzalo Ariel Gomez</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Juan Simon Zubigaray</a>
+                </li>
+
+            </ul> <!--Fin de desarrolladores-->
+
+            <ul class="ul-categorias-footer"><!--Inicio de redes sociales-->
+                <li class="titulo-categoria">Redes sociales</li>
+                <li class="titulo-subcategoria">
+                    <a href="">Facebook</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">X</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Instagram</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">Discord</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">YouTube</a>
+                </li>
+                <li class="titulo-subcategoria">
+                    <a href="">TikTok</a>
+                </li>
+            </ul> <!--Fin de redes sociales-->
+
+        </div> <!--Fin de categorias footer-->
+
+        <div class="footer-final">
+            <img src="images/icons/PaginaLogo.svg" alt="logo" id="logo">
+            <p id="copyright">Copyright © 1996 - 2023 Games Haven</p>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/carrusel.js"></script>
+    <script type="text/javascript" src="js/carrito.js"></script>
+
+    <script type="text/javascript" src="js/desplegable.js"></script>
+
+    <script type="text/javascript" src="js/overlay.js"></script>
+</body>
+
+</html>

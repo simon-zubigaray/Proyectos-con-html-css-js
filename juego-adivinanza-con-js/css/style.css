@@ -1,0 +1,39 @@
+html {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  text-align: center;
+  background-color: #e6e6e6;
+}
+
+h1 {
+  color: #333;
+}
+
+input {
+  padding: 7px;
+  font-size: 16px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+}
+
+.mensaje {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.intento {
+  color: #333;
+  font-size: 18px;
+  margin-top: 20px;
+}
